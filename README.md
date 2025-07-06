@@ -9,7 +9,8 @@ The dashboard helps uncover potential disparities and trends in policing practic
 
 ## 🚀 Features
 
-- ✅ Scalable **PySpark ETL pipeline** for cleaning and normalizing raw data  
+- ✅ Scalable **PySpark ETL pipeline** for cleaning and normalizing raw data
+- ✅ Uses **PySpark SQL queries** for efficient distributed aggregations and feature engineering   
 - ✅ Handles inconsistent formats, mislabeled fields, and invalid values  
 - ✅ Feature engineering: infers `stop_hour`, adds `region` and `time_of_day` buckets  
 - ✅ Aggregates stops by race, region, and time category  
