@@ -1,6 +1,7 @@
 # 🚔 Police Traffic Stops Analysis & Dashboard 📊
 
-A **PySpark-based data pipeline and interactive dashboard** that analyzes racial and temporal patterns in U.S. police traffic stop data.  
+A **PySpark-based data pipeline and interactive dashboard** that analyzes racial and temporal patterns in U.S. police traffic stop data.
+Answers Real World question of “Do racial demographics and geographic location affect police stop patterns, such as the time of day when stops occur?
 It cleans and standardizes messy multi-state datasets, aggregates key metrics, and visualizes patterns by race, region, and time of day.  
 
 The dashboard helps uncover potential disparities and trends in policing practices.
