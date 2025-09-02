@@ -10,8 +10,8 @@ PARQUET_OUTPUT = "./cleaned_stops.parquet"
 CSV_OUTPUT_DIR = "./cleaned_stops_csv"
 
 # region mapping
-WEST   = ["CA", "WA", "OR"]
-EAST   = ["RI", "NC", "VT"]
+WEST   = ["CA", "WA", "OR", "AZ", "TX"]
+EAST   = ["NC", "RI", "VT", "NY", "MA"]
 STATES = WEST + EAST
 
 # Spark session ── make the driver JAR visible
@@ -105,5 +105,6 @@ df_clean.write \
 
 # 7. Done
 spark.stop()
+
 
 
