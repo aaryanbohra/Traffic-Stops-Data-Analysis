@@ -78,8 +78,8 @@ race_norm = (
 )
 
 sex_norm  = (
-    when(col("sex_raw").isin( "f","female"),   "female")
-   .when(col("sex_raw").isin( "m","male"),     "male")
+    when(col("sex_raw").isin( "f","female", "0"),   "female")
+   .when(col("sex_raw").isin( "m","male", "1"),     "male")
    .otherwise("other")
 )
 
@@ -105,4 +105,5 @@ df_clean.write \
 
 # 7. Done
 spark.stop()
+
 
